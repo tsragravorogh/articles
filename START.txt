@@ -1,0 +1,6 @@
+npm i 
+npm run start
+
+
+
+NODE JS - https://nodejs.org/en/download/
