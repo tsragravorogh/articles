@@ -20,7 +20,7 @@ const SingleArticle = (props: SingleArticleProps) => {
   return (
     <StyledCard
       size="small"
-      title={article.title}
+      title={`${article.title} | ${article.topic}`}
       extra={
         <Button onClick={() => (opened ? hide() : open())}>
           Show {opened ? "Less" : "More"}
